@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px) {
+	body {
+		background-color:green;
+	}
+}
+
+.wrapper {
+	width: 100%;
+	padding: 20px;
+}
+
+#main-content,
+#sidebar {
+	width: 100%;
+}
+
+#sidebar {
+	margin-top: 40px;
+}
