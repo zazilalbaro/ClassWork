@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>band demo</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		
+		0 == false
+		0 === false
+
+		var myBands = ["britney", "selena", "blink 182"];
+
+		var userGuess = prompt("Which band or artist do you like?");
+		
+		var userGuessLower = userGuess.toLowerCase();
+
+		if (myBands.indexOf(userGuessLower) === -1) {
+			alert("Nah! They're lame...");
+		}
+
+		else {
+			alert("OMG! I love them too!");
+		}
+
+	</script>
+</body>
+</html>
