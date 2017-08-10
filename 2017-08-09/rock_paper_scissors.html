@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>rock paper scissors</title>
+</head>
+<body>
+
+	<span id="text"></span>
+	<script type="text/javascript">
+		
+		 
+		// establish the array of possible values
+
+		var gameValues = ["r", "p", "s"]
+
+		// initiate the game with the onkeyup event
+
+		// randomly choose r p or s from an array
+
+		// display what the user and the program entered
+
+		// declare the winner of the round
+
+		// play until one player wins 2 out of 3
+
+		var text = document.getElementById("text");
+
+		var computerChoices = ["r", "p", "s"]
+
+
+		document.onkeyup = function(event) {
+			// check if they pressed "r" "p" or "s"
+			// if they did, randomly select r, p, or s and determine winner
+			// 
+				text.textContent = event.key;
+				// console.log(text)
+				// console.log(event.key)
+
+				var userPlay = event.key;
+
+				var = computerPlay = computerChoices[Math.floor(Math.random() * computerChoices.length)];
+
+				if ((userPlay === "r") || (userPlay === "p") || (userPlay === "s")) {
+					alert("User play: " + userPlay);
+					alert("computerPlay: " + computerPlay);
+				}
+		};
+
+
+	</script>
+</body>
+</html>

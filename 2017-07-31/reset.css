@@ -1,0 +1,36 @@
+
+
+header h1 {
+	background-color: grey;
+}
+
+
+main {
+	padding-bottom: 90px;
+}
+
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+.content-wrap {
+    box-sizing: border-box;
+    min-height: 100%;
+    padding: 0 0 100px;
+    position: relative;
+    background-color: grey;
+}
+
+footer {
+    bottom: ;
+    height: 100px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    margin-bottom: -90px;
+}
