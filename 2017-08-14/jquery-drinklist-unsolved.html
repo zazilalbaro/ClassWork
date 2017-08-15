@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Content!</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</head>
+<body>
+
+  <h1>Drink Selection!</h1>
+  <hr>
+
+  <div id="drink-options"></div>
+
+  <script type="text/javascript" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+
+    var drinkList = [
+      "Coffee: $5",
+      "Espresso: $7",
+      "Cappuccino: $6",
+      "Latte: $4",
+      "Tea: $3",
+      "Ice Coffee: $6",
+      "Ice Espresso: $8",
+      "Ice Latte: $6",
+      "Ice Tea: $4"
+    ];
+
+    // Using JavaScript programmatically append each drinkList item to the "drink-options" div
+    // HINT: you will need a for loop to go over each element in the list
+
+var drinkDiv = $("#drink-options");
+
+    for (i = 0; i < drinklist.length; i++) {
+
+      var newDrinkDiv = $("<div>" + drinklist[i] + "</div>");
+      drinkDiv.append(newDrinkDiv);
+      
+      //or
+
+      $("#drink-options").append($("<div>" + drinklist[i] + "</div>")) // and now you can remove the var for drinkDiv too
+    }
+
+
+
+
+
+
+  </script>
+
+</body>
+</html>
