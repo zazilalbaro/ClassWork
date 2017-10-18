@@ -1,0 +1,15 @@
+{
+  "name": "2017-10-09",
+  "version": "1.0.0",
+  "description": "",
+  "main": "activity.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquire": "^0.4.8",
+    "inquirer": "^3.3.0"
+  }
+}
